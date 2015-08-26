@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="Scrot">
+			<action name="Execute">
+				<execute>/usr/bin/scrot</execute>
+			</action>
+		</item>
+		<item label="Term">
+			<action name="Execute">
+				<execute>/usr/bin/terminator</execute>
+			</action>
+		</item>
+		<item label="Web">
+			<action name="Execute">
+				<execute>/usr/bin/firefox</execute>
+			</action>
+		</item>
+		<item label="Minecraft">
+			<action name="Execute">
+				<execute>java -jar ~/Downloads/Minecraft.jar</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="root-menu-85532" label="Extended">
+			<item label="GIMP">
+				<action name="Execute">
+					<execute>/usr/bin/gimp</execute>
+				</action>
+			</item>
+			<item label="Files">
+				<action name="Execute">
+					<execute>/usr/bin/pcmanfm</execute>
+				</action>
+			</item>
+			<item label="Music">
+				<action name="Execute">
+					<execute>/usr/bin/audacious</execute>
+				</action>
+			</item>
+			<item label="Edit">
+				<action name="Execute">
+					<execute>/usr/bin/pluma</execute>
+				</action>
+			</item>
+			<item label="Mail">
+				<action name="Execute">
+					<execute>/usr/bin/thunderbird</execute>
+				</action>
+			</item>
+			<item label="NDSx">
+				<action name="Execute">
+					<execute>/usr/games/desmume</execute>
+				</action>
+			</item>
+			<item label="vbox">
+				<action name="Execute">
+					<execute>/usr/bin/virtualbox</execute>
+				</action>
+			</item>
+			<item label="htop">
+				<action name="Execute">
+					<execute>/usr/bin/htop</execute>
+				</action>
+			</item>
+		</menu>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<separator/>
+		<menu id="client-list-menu"/>
+		<separator/>
+		<menu id="/Debian"/>
+		<menu id="root-menu-975651" label="OpenBox">
+			<item label="Wallpaper">
+				<action name="Execute">
+					<execute>/usr/bin/nitrogen</execute>
+				</action>
+			</item>
+			<item label="Refresh">
+				<action name="Restart"/>
+			</item>
+			<item label="Reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+			<item label="Obmenu">
+				<action name="Execute">
+					<execute>/usr/bin/obmenu</execute>
+				</action>
+			</item>
+			<item label="lxappearance">
+				<action name="Execute">
+					<execute>/usr/bin/lxappearance</execute>
+				</action>
+			</item>
+			<item label="Obconf">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="root-menu-385445" label="Goodbye">
+			<item label="suspend">
+				<action name="Execute">
+					<execute>suspend</execute>
+				</action>
+			</item>
+			<item label="reboot">
+				<action name="Execute">
+					<execute>reboot</execute>
+				</action>
+			</item>
+			<item label="Logout">
+				<action name="Exit"/>
+			</item>
+		</menu>
+	</menu>
+</openbox_menu>
